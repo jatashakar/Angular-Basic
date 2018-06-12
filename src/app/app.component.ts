@@ -9,7 +9,7 @@ export class AppComponent {
   userData: any;
   title = 'CTP App:';
   searchKey = 'hello';
-  userName: any[] = [12, 'Shyam', 'Mohan', 'Robert'];
+  userName: any[] = ['Ram', 'Shyam', 'Mohan', 'Robert'];
   userDataFun() {
     this.userData = [
       { name: 'Ram', age: 25, city: 'Delhi' },
