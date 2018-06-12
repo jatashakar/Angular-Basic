@@ -2,6 +2,7 @@
 <p>
   {{title}} {{searchKey}}
 </p>
+<input type="text" [(ngModel)]="searchKey"/>
 </div>
 <div>
 <ul>
@@ -9,7 +10,7 @@
     {{obj}}
   </li>
 </ul>
-<input type="text" [(ngModel)]="searchKey"/>
+
 <input type="button" value="Click Event" (click)="userDataFun()"/>
 <table border="1" *ngIf="userData else nodata">
   <tr>
