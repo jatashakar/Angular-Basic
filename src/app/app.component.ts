@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'CTP App';
+  title = 'CTP App:';
   searchKey = 'hello';
 
   userName:any[] = ['Ram', 'Shyam','Mohan','Robert'];
