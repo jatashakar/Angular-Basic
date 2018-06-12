@@ -1,7 +1,7 @@
 
-<ul data-ng-repeat="{{userName}}">
-  <li {{userName}}>
-    
+<ul>
+  <li *ngFor="let obj of userName">
+    {{obj}}
   </li>
 </ul>
 
