@@ -12,7 +12,7 @@ export class AppComponent {
 
   userName:any[] = ['Ram', 'Shyam','Mohan','Robert'];
 
-  this.userDate:=
+  this.userData:=
     [
     {name:'Ram',age:'25',city:'Delhi'},
     {name:'Sohan',age:'35',city:'Noida'},
