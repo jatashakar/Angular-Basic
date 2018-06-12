@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  constructor(){
+  }
   userData: any;
   title = 'CTP App:';
   searchKey = 'hello';
