@@ -18,6 +18,16 @@
     <th>Age</th>
     <th>City</th>
   </tr>
+  <tr *ngFor="let objuserData of userData ;let i = index">
+      <th>{{i+1}</th>
+      <th>{{objuserData.name}}</th>
+      <th>{{objuserData.age}}</th>
+      <th>{{objuserData.city}}</th>
+    </tr>
+</table>
+<ng-template #nodata>
+<P>Data not found!</P>
+</ng-template>
 </div>
 
 
