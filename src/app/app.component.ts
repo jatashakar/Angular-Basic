@@ -12,11 +12,7 @@ export class AppComponent {
   userName: any[] = ['Ram', 'Shyam', 'Mohan', 'Robert'];
   userDataFun() {
     this.userData = [
-      { name: 'Ram', age: '25', city: 'Delhi' },
-      { name: 'Sohan', age: '35', city: 'Noida' },
-      { name: 'Sita', age: '20', city: 'Ajmer' },
-      { name: 'RamDas', age: '55', city: 'UP' },
-      { name: 'Rocky', age: '30', city: 'Mumbai' }
+    20, 'test'
     ]
   }
 }
