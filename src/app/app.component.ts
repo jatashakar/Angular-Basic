@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'CTP App';
   searchKey = 'hello';
 
-  userAge:any[] = ['Ram', 'Shyam','Mohan','Robert'];
+  userName:any[] = ['Ram', 'Shyam','Mohan','Robert'];
 
 }
