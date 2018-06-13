@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(){
+  constructor() {
   }
   userData: any;
   title = 'CTP App:';
@@ -19,6 +19,6 @@ export class AppComponent {
       { name: 'Sita', age: 20, city: 'Ajmer' },
       { name: 'RamDas', age: 55, city: 'UP' },
       { name: 'Rocky', age: 30, city: 'Mumbai' }
-    ]
+    ];
   }
 }
